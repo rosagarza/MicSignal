@@ -1,0 +1,395 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		74C87BD423E18CE400C379EA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C87BD323E18CE400C379EA /* SceneDelegate.swift */; };
+		74C87BD923E18CE400C379EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74C87BD723E18CE400C379EA /* Main.storyboard */; };
+		74C87BDB23E18CEC00C379EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74C87BDA23E18CEC00C379EA /* Assets.xcassets */; };
+		74C87BDE23E18CEC00C379EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74C87BDC23E18CEC00C379EA /* LaunchScreen.storyboard */; };
+		74C87BE623E18DA300C379EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C87BE523E18DA300C379EA /* AppDelegate.swift */; };
+		74C87BE823E18DC900C379EA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C87BE723E18DC900C379EA /* ViewController.swift */; };
+		BE408AA07CDA6BFC355B83D0 /* libPods-MicSignal.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E1D1F9D1CE0E48DD2437A46B /* libPods-MicSignal.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		74C87BCE23E18CE400C379EA /* MicSignal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MicSignal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		74C87BD323E18CE400C379EA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		74C87BD823E18CE400C379EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		74C87BDA23E18CEC00C379EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		74C87BDD23E18CEC00C379EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		74C87BDF23E18CEC00C379EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74C87BE523E18DA300C379EA /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = "../../../AudioKit-4.3/Examples/iOS/MicrophoneAnalysis/MicrophoneAnalysis/AppDelegate.swift"; sourceTree = "<group>"; };
+		74C87BE723E18DC900C379EA /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = "../../../AudioKit-4.3/Examples/iOS/MicrophoneAnalysis/MicrophoneAnalysis/ViewController.swift"; sourceTree = "<group>"; };
+		A4D736DA556031B1870F2BF5 /* Pods-MicSignal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MicSignal.release.xcconfig"; path = "Target Support Files/Pods-MicSignal/Pods-MicSignal.release.xcconfig"; sourceTree = "<group>"; };
+		A83A79ADB317D26CAAE448C3 /* Pods-MicSignal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MicSignal.debug.xcconfig"; path = "Target Support Files/Pods-MicSignal/Pods-MicSignal.debug.xcconfig"; sourceTree = "<group>"; };
+		E1D1F9D1CE0E48DD2437A46B /* libPods-MicSignal.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MicSignal.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		74C87BCB23E18CE400C379EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE408AA07CDA6BFC355B83D0 /* libPods-MicSignal.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5FAA3E8B49CA484A677E4F94 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A83A79ADB317D26CAAE448C3 /* Pods-MicSignal.debug.xcconfig */,
+				A4D736DA556031B1870F2BF5 /* Pods-MicSignal.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		74C87BC523E18CE400C379EA = {
+			isa = PBXGroup;
+			children = (
+				74C87BD023E18CE400C379EA /* MicSignal */,
+				74C87BCF23E18CE400C379EA /* Products */,
+				5FAA3E8B49CA484A677E4F94 /* Pods */,
+				E344431DD8C0B303C948A1EC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		74C87BCF23E18CE400C379EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				74C87BCE23E18CE400C379EA /* MicSignal.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		74C87BD023E18CE400C379EA /* MicSignal */ = {
+			isa = PBXGroup;
+			children = (
+				74C87BE523E18DA300C379EA /* AppDelegate.swift */,
+				74C87BD323E18CE400C379EA /* SceneDelegate.swift */,
+				74C87BE723E18DC900C379EA /* ViewController.swift */,
+				74C87BD723E18CE400C379EA /* Main.storyboard */,
+				74C87BDA23E18CEC00C379EA /* Assets.xcassets */,
+				74C87BDC23E18CEC00C379EA /* LaunchScreen.storyboard */,
+				74C87BDF23E18CEC00C379EA /* Info.plist */,
+			);
+			path = MicSignal;
+			sourceTree = "<group>";
+		};
+		E344431DD8C0B303C948A1EC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E1D1F9D1CE0E48DD2437A46B /* libPods-MicSignal.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		74C87BCD23E18CE400C379EA /* MicSignal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74C87BE223E18CEC00C379EA /* Build configuration list for PBXNativeTarget "MicSignal" */;
+			buildPhases = (
+				A2A3DB8333029E7BFB6C6F0D /* [CP] Check Pods Manifest.lock */,
+				74C87BCA23E18CE400C379EA /* Sources */,
+				74C87BCB23E18CE400C379EA /* Frameworks */,
+				74C87BCC23E18CE400C379EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MicSignal;
+			productName = MicSignal;
+			productReference = 74C87BCE23E18CE400C379EA /* MicSignal.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		74C87BC623E18CE400C379EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Rosa Garza";
+				TargetAttributes = {
+					74C87BCD23E18CE400C379EA = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 74C87BC923E18CE400C379EA /* Build configuration list for PBXProject "MicSignal" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 74C87BC523E18CE400C379EA;
+			productRefGroup = 74C87BCF23E18CE400C379EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				74C87BCD23E18CE400C379EA /* MicSignal */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		74C87BCC23E18CE400C379EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74C87BDE23E18CEC00C379EA /* LaunchScreen.storyboard in Resources */,
+				74C87BDB23E18CEC00C379EA /* Assets.xcassets in Resources */,
+				74C87BD923E18CE400C379EA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A2A3DB8333029E7BFB6C6F0D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MicSignal-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		74C87BCA23E18CE400C379EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74C87BE623E18DA300C379EA /* AppDelegate.swift in Sources */,
+				74C87BE823E18DC900C379EA /* ViewController.swift in Sources */,
+				74C87BD423E18CE400C379EA /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		74C87BD723E18CE400C379EA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74C87BD823E18CE400C379EA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		74C87BDC23E18CEC00C379EA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74C87BDD23E18CEC00C379EA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		74C87BE023E18CEC00C379EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		74C87BE123E18CEC00C379EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		74C87BE323E18CEC00C379EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A83A79ADB317D26CAAE448C3 /* Pods-MicSignal.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H85TTN4U46;
+				INFOPLIST_FILE = MicSignal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.RosaGarza.MicSignal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		74C87BE423E18CEC00C379EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4D736DA556031B1870F2BF5 /* Pods-MicSignal.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H85TTN4U46;
+				INFOPLIST_FILE = MicSignal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.RosaGarza.MicSignal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		74C87BC923E18CE400C379EA /* Build configuration list for PBXProject "MicSignal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74C87BE023E18CEC00C379EA /* Debug */,
+				74C87BE123E18CEC00C379EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74C87BE223E18CEC00C379EA /* Build configuration list for PBXNativeTarget "MicSignal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74C87BE323E18CEC00C379EA /* Debug */,
+				74C87BE423E18CEC00C379EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 74C87BC623E18CE400C379EA /* Project object */;
+}
